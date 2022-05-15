@@ -3,7 +3,7 @@ import std.experimental.logger;
 import std.getopt;
 import std.string;
 import std.file;
-import std.c.process;
+import core.stdc.stdlib;
 
 import encode : encode;
 import decode : decode;
